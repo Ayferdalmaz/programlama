@@ -38,7 +38,7 @@ def oee():
     l=int(input("toplam ürün miktarı:"))
     kalite=k/l
     print("kalite")
-    oee=(kullanılabilirlikOranı*kalite*performans)/100
+    oee=(kullanılabilirlikOranı*kalite*performans)*(100/100)
     return oee
 
 
